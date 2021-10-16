@@ -1,9 +1,9 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
-import { FiAlignJustify } from "react-icons/fi"
-import logo from "../assets/images/logo.svg"
+import React, { useState } from "react";
+import { Link } from "gatsby";
+import { FiAlignJustify } from "react-icons/fi";
+import logo from "../assets/images/logo.svg";
 const Navbar = () => {
-  const [show, setShow] = useState(false)
+  const [show, setShow] = useState(false);
   return (
     <nav className="navbar">
       <div className="nav-center">
@@ -56,7 +56,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

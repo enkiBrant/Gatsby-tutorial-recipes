@@ -1,8 +1,8 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/Layout"
-import Allrecipes from "../components/AllRecipes"
-import { StaticImage } from "gatsby-plugin-image"
+import Layout from "../components/Layout";
+import Allrecipes from "../components/AllRecipes";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function Home() {
   return (
@@ -26,5 +26,5 @@ export default function Home() {
         <Allrecipes />
       </main>
     </Layout>
-  )
+  );
 }

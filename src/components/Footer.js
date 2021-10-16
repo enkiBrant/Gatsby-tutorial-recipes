@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <a href="https://www.gatsbyjs.com/">Gatsby4</a> ✊
       </p>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

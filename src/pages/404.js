@@ -1,5 +1,5 @@
-import React from "react"
-import Layout from "../components/Layout"
+import React from "react";
+import Layout from "../components/Layout";
 
 const Error = () => {
   return (
@@ -11,7 +11,7 @@ const Error = () => {
         </section>
       </main>
     </Layout>
-  )
-}
+  );
+};
 
-export default Error
+export default Error;

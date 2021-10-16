@@ -4,6 +4,7 @@ import setupTags from "../utils/setupTags";
 
 const TagsList = ({ recipes }) => {
   const newTags = setupTags(recipes);
+  // console.log(recipes);
   // console.log(newTags);
   // for (const tag in newTags) {
   //   console.log(`${tag} : ${newTags[tag]}`);

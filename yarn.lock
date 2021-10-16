@@ -12395,7 +12395,7 @@
     "astral-regex" "^1.0.0"
     "is-fullwidth-code-point" "^2.0.0"
 
-"slugify@^1.4.4", "slugify@^1.5.0":
+"slugify@^1.4.4", "slugify@^1.6.1":
   "integrity" "sha512-5ofqMTbetNhxlzjYYLBaZFQd6oiTuSkQlyfPEFIMwgUABlZQ0hbk5xIV9Ydd5jghWeRoO7GkiJliUvTpLOjNRA=="
   "resolved" "https://registry.npmjs.org/slugify/-/slugify-1.6.1.tgz"
   "version" "1.6.1"

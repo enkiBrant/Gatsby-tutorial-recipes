@@ -19,7 +19,7 @@ const RecipeTemplate = ({ data }) => {
 
   // console.log(image);
   // console.log(image.gatsbyImageData);
-  // const pathToImage = getImage(image.gatsbyImageData);
+  const pathToImage = getImage(image);
 
   const { ingredients, instructions, tags, tools } = content;
   return (
@@ -29,7 +29,7 @@ const RecipeTemplate = ({ data }) => {
           {/* hero */}
           <section className="recipe-hero">
             <GatsbyImage
-              image={image.gatsbyImageData}
+              image={pathToImage}
               alt={title}
               className="about-img"
             />

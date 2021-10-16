@@ -1,12 +1,12 @@
 import React from "react";
 import Layout from "../components/Layout";
-import Allrecipes from "../components/Allrecipes";
+import AllRecipes from "../components/AllRecipes";
 
 const Recipes = () => {
   return (
     <Layout>
       <main className="page">
-        <Allrecipes />
+        <AllRecipes />
       </main>
     </Layout>
   );

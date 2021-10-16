@@ -6,11 +6,10 @@ const setupTags = recipes => {
       tagsArr.push(tag);
     });
   });
-
+  // prettier-ignore
   const allTags = tagsArr.reduce(
-    (cnt, cur) => ((cnt[cur] = cnt[cur] + 1 || 1), cnt),
-    {}
-  );
+    (cnt, cur) => (cnt[cur] = cnt[cur] + 1 || 1, cnt), {}
+    );
 
   return allTags;
 };

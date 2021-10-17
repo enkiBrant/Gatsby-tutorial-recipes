@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { graphql } from "gatsby";
+import SEO from "../components/SEO";
 
 import RecipesList from "../components/RecipesList";
 
@@ -11,6 +12,7 @@ const contact = ({
 }) => {
   return (
     <Layout>
+      <SEO title="Contact" />
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">

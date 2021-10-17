@@ -9,7 +9,7 @@ const tagTemplate = ({ data, pageContext }) => {
     <Layout>
       <SEO title={pageContext.tag} />
       <main className="page">
-        <h2>tag name</h2>
+        <h2>{pageContext.tag}</h2>
         <div className="tag-recipes">
           <RecipesList recipes={recipes} />
         </div>
